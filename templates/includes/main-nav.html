@@ -20,11 +20,11 @@
                 Tours Outside of Dublin
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="outside-link">
-                <a href="" class="dropdown-item">North of Ireland</a>
-                <a href="" class="dropdown-item">South-West of Ireland</a>
-                <a href="" class="dropdown-item">West of Ireland</a>
-                <a href="" class="dropdown-item">Middle of Ireland</a>
-                <a href="" class="dropdown-item">All tours outside of Dublin area</a>
+                <a href="{% url 'tours' %}?category=north-ireland" class="dropdown-item">North of Ireland</a>
+                <a href="{% url 'tours' %}?category=southwest-ireland" class="dropdown-item">South-West of Ireland</a>
+                <a href="{% url 'tours' %}?category=west-ireland" class="dropdown-item">West of Ireland</a>
+                <a href="{% url 'tours' %}?category=middle-ireland" class="dropdown-item">Middle of Ireland</a>
+                <a href="{% url 'tours' %}?category=north-ireland,southwest-ireland,west-ireland,middle-ireland" class="dropdown-item" class="dropdown-item">All tours outside of Dublin area</a>
             </div>
         </li>
 
@@ -34,10 +34,10 @@
                 Greater Dublin Area Tours
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="greater-link">
-                <a href="" class="dropdown-item">North of Dublin/Leinster</a>
-                <a href="" class="dropdown-item">South Dublin/Leinster</a>
-                <a href="" class="dropdown-item">West of Dublin</a>
-                <a href="" class="dropdown-item">All Greater Dublin/Leinster Tours</a>
+                <a href="{% url 'tours' %}?category=greater-dublin-north" class="dropdown-item">North of Dublin/Leinster</a>
+                <a href="{% url 'tours' %}?category=greater-dublin-south" class="dropdown-item">South Dublin/Leinster</a>
+                <a href="{% url 'tours' %}?category=greater-dublin-west" class="dropdown-item">West of Dublin</a>
+                <a href="{% url 'tours' %}?category=greater-dublin-north,greater-dublin-south,greater-dublin-west" class="dropdown-item">All Greater Dublin/Leinster Tours</a>
             </div>
         </li>
 
@@ -47,8 +47,7 @@
                 Dublin City Tours
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="city-link">
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">All Dublin City Tours</a>
+                <a href="{% url 'tours' %}?category=Dublin-City" class="dropdown-item">All Dublin City Tours</a>
             </div>
         </li>
     </ul>

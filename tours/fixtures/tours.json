@@ -113,7 +113,7 @@
             "description": "Many people are interested in what we do, want to taste our wines, and see how we make them! Prepare to be guided on a casual and personalised tour of our winery (consider it an intro to winemaking), from our fab co-founder and winemaker, Brett. Following this, you will experience the beautiful flavours of our three wines, paired alongside Irish cheeses and chocolates.",
             "duration": 3.15,
             "price": 25.00,
-            "category": 6,
+            "category": 7,
             "rating": 4.5,
             "image_url": "",
             "image": "wicklow-way-winery.png"
@@ -128,7 +128,7 @@
             "description": "Visit our 99-acre farm to see the whole process of how we prepare our 100% Organic Gluten Free Oats.  From Field to bag on your home table we would love to show you how our process works.  The Natural Way.",
             "duration": 4.30,
             "price": 35.00,
-            "category": 6,
+            "category": 8,
             "rating": 4.7,
             "image_url": "",
             "image": "merry-mill-farm.jpg"
@@ -143,7 +143,7 @@
             "description": "Visit Stillgarden Distillery for an exquisite Gin Tasting afternoon tea and find out the gin-spiration behind our range of beautifully crafted gins. You will taste 4 of our signature gins and learn about the botanicals and equipment used to create them. Tickets include a welcome drink plus a 4 gin tasting flight and mixer, the duration is 60 mins. All sessions end with a Q&A from one of our liquid experts.",
             "duration": 1.20,	
             "price": 33.99,
-            "category": 6,
+            "category": 8,
             "rating": 4.4,
             "image_url": "",
             "image": "gin-tasting-still-gardens.jpg"

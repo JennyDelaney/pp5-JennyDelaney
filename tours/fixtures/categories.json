@@ -19,8 +19,8 @@
         "pk": 3,
         "model": "tours.category",
         "fields": {
-            "name": "southeast-ireland",
-            "friendly_name": "South East Ireland"
+            "name": "southwest-ireland",
+            "friendly_name": "South West Ireland"
         }
     },
     {
@@ -43,8 +43,24 @@
         "pk": 6,
         "model": "tours.category",
         "fields": {
-            "name": "greater-dublin",
-            "friendly_name": "Greater Dublin Area"
+            "name": "greater-dublin-north",
+            "friendly_name": "Greater Dublin Area North"
+        }
+    }
+    {
+        "pk": 7,
+        "model": "tours.category",
+        "fields": {
+            "name": "greater-dublin-south",
+            "friendly_name": "Greater Dublin Area South"
+        }
+    }
+    {
+        "pk": 8,
+        "model": "tours.category",
+        "fields": {
+            "name": "greater-dublin-west",
+            "friendly_name": "Greater Dublin Area West"
         }
     }
 ]
