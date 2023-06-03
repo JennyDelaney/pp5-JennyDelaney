@@ -31,6 +31,13 @@
                 <div class="tour-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ tour.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ tour.price }}</p>
+                    {% if tour.category %}
+                    <p class="small mt-1 mb-0">
+                        <a class="text-muted" href="{% url 'tours' %}?category={{ tour.category.name }}">
+                            <i class="fas fa-tag mr-1"></i>{{ tour.category.friendly_name }}
+                        </a>
+                    </p>
+                    {% endif %}
                     <small class="text-muted"><i class="fa-solid fa-clock"></i>{{ tour.duration }} (hours . minutes)</small><br>
                     {% if tour.rating %}
                     <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ tour.rating }} / 5</small>
