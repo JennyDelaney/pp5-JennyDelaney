@@ -1,0 +1,152 @@
+[
+    {
+        "pk": 1,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Cliffs of Moher Tour Including Wild Atlantic Way and Galway City from Dublin",
+            "description": "Escape the hustle and bustle of Dublin in favor of the rugged coastal splendor of the Cliff’s of Moher and Galway City on an enriching full-day excursion from the Irish capital. From the comfort of a luxury coach, admire stunning Irish countryside and travel along the Wild Atlantic Way to the incredible 700-foot high Cliffs of Moher. Browse intriguing exhibitions in the visitor center; marvel at the lunar limestone landscape of Burren, renowned for its rare flowers; and absorb the cosmopolitan charm of Galway City during some leisurely free time. Full-day trip by coach from Dublin to the Cliffs of Moher, the Burren and Galway City Gain admission to the Cliffs of Moher Visitor Experience, a state-of-the-art visitor center with engaging exhibits.  Stroll along the cliffs and admire views out to Galway Bay and the Aran Islands.  Explore the stark and otherworldly terrain of the Burren region Travel along part of Ireland’s Wild Atlantic Way, a scenic coastal route.  Premium admission included to Visitors Centre 2 hour stop.  Enjoy a 2 hour visit to Galway City which includes the opportunity to avail of a complimentary guided walking tour of the City Centre with lots of free time. Uniquely offering a separate tour guide to the driver you will be entertained with stories of Irish folklore, music, history and lots of fun.",
+            "duration": 13,
+            "price": 80.00,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "cliffs-of-moher-clare.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "Northern Ireland Highlights Day Trip Including Giant's Causeway from Dublin",
+            "description": "Explore Northern Ireland's biggest draws—Belfast, Giant’s Causeway and the Carrick-a-Rede Rope Bridge—on a day trip from Dublin. In a traditional black cab in Belfast, you’ll explore sites of the capital’s conflicted history: the mural-strewn streets of the Falls and Skankill neighborhoods and the Belfast Docks. Then course along the Antrim Coast to experience one of Ireland great geological marvels, the UNESCO–listed Giant’s Causeway, followed by a stop at the Carrick-a-Rede Rope Bridge. Marvel at the surrounding headlands that were also used as a filming location for many 'Game of Thrones' scenes. Note: Carrick-a-Rede Rope Bridge is currently closed to the public. This stop is replaced by a visit to Dunluce Castle, the real-life House of Greyjoy from the 'Game of Thrones', until further notice. Combine a black cab tour of Belfast with a visit to Giant's Causeway.  Explore the Giant’s Causeway at your own pace or join an included tour led by a park ranger.  Make the most of free Wi-Fi while on the luxury coach.  Entrance fees and round-trip transportation are included.",
+            "duration": 13.30,
+            "price": 83.00,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "giants-causeway-belfast.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "Blarney Castle Day Tour from Dublin Including Rock of Cashel & Cork City",
+            "description": "Explore hidden gems and popular attractions around County Cork on this Blarney day tour from Dublin. Travel deep into the Golden Vale of County Cork with your guide and soak up some free time in Cork to explore at your leisure, before exploring the famous Rock of Cashel. Then, visit Blarney Castle and follow in time-honored tradition by kissing the Blarney Stone. Top off the trip with tax-free shopping in the Woollen Mills before returning to Dublin. Discover the wonders of Blarney Castle on a full-day tour from Dublin.  Follow the tradition by kissing the legendary Blarney Stone and receive 'the gift of the gab' for seven years.  Drive through County Cork and admire passing views such as the Galtee Mountains and County Tipperary.  Shop till you drop in the Woollen Mills before returning to Dublin.",
+            "duration": 12,
+            "price": 80.00,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "blarney-cork.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Kilkenny, Wicklow Mountains, Glendalough, Sheep Dog Trials, Day Trip from Dublin",
+            "description": "Break from Dublin for a tour of medieval Irish architecture and folklore in Kilkenny and Glendalough. Aboard a luxury coach, take a day trip to the top sights in south-east Ireland from Kilkenny Castle to the Wicklow Mountain National Park and Glendalough’s medieval monastic settlement. This tour also includes a stop at the foot of the Wicklow Mountains, where you'll be able to see border collies corral sheep across the fields. Visit south-east Ireland's top attractions, including Kilkenny Castle.   Take the scenic route through Wicklow Mountains National Park en route to Glendalough.   See border collie sheepdogs in action at the foot of the Wicklow Mountains.   Explore the monastic settlement at Glendalough, and see medieval archeology alongside abundant wildlife.  Round-trip transport by luxury, air-conditioned coach from Dublin.",
+            "duration": 10,
+            "price": 49.00,
+            "category": 4,
+            "rating": 3.0,
+            "image_url": "",
+            "image": "kilkenny-castle.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "Guinness and Jameson Irish Whiskey Experience Tour in Dublin",
+            "description": "Skip the line at the Guinness Storehouse and Jameson Distillery on Bow Street for a guided tour around the complexes. Listen as your guide explains the ingredients used and learn of the complex brewing and distilling processes. Then, enjoy tastings of the beer and whiskey for which Ireland is famous before concluding the tour. Take a guided tour of the facilities of Ireland's two most famous drinks.  Skip-the-line access to the Guinness Storehouse and Jameson Distillery.  Learn how each is drink is produced on a guided tour of the facilities.  Enjoy tastings of beer and whiskey at each location.",
+            "duration": 4,
+            "price": 99.00,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "Guiness-Brewery-dublin.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "Big Bus Dublin Hop on Hop off Sightseeing Tour with Live Guide",
+            "description": "Explore Dublin at your own pace with Big Bus tour; your 24- to 72-hour ticket allows you to hop on and hop off wherever you like at any of 25 stops. Enjoy live or audio commentary that teaches you about Dublin's history and culture, and explore the small streets of Dublin on a guided walking tour. Hop on and off as many times as you like to explore Dublin highlights at your leisure, such as St. Stephens Green, Croke Park, EPIC the Irish Emigration Museum, and others. Choose from a 24-, 48-, or 72-hour ticket according to your schedule and interests.  Explore the small streets of Dublin on a guided walking tour, included with all tickets.  Hop on and off at any of the 25 stops Learn about Irish history through live commentary.",
+            "duration": 1.45,
+            "price": 30.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "big-bus-dublin.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Dublin walking tasting tour with Secret Food Tours",
+            "description": "Eat like a true Dubliner on this small-group Dublin food tour. With your guide, seek out authentic pubs, cafés, food shops, and markets, and savor Irish specialties including a traditional breakfast, artisanal cheeses, ice cream, and more. Pair your tastings with an Irish cream liqueur and another tipple, and admire some of Dublin’s hidden gems and learn about its culinary heritage as you eat and explore. Tour is limited to 12 or fewer. Explore the local streets of Dublin on a gourmet walking tour.  Sample traditional Irish food while you walk—enough for a meal.  See landmarks like Trinity College and the Guinness Storehouse.  A small group limited to 12 ensures personal service.  Find out on the day of the tour what the Secret Dish is.",
+            "duration": 3.30,
+            "price": 89.00,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "dublin-walking-tasting-tour.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "Wicklow Way Winery",
+            "description": "Many people are interested in what we do, want to taste our wines, and see how we make them! Prepare to be guided on a casual and personalised tour of our winery (consider it an intro to winemaking), from our fab co-founder and winemaker, Brett. Following this, you will experience the beautiful flavours of our three wines, paired alongside Irish cheeses and chocolates.",
+            "duration": 3.15,
+            "price": 25.00,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "wicklow-way-winery.png"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "The Merry Mill",
+            "description": "Visit our 99-acre farm to see the whole process of how we prepare our 100% Organic Gluten Free Oats.  From Field to bag on your home table we would love to show you how our process works.  The Natural Way.",
+            "duration": 4.30,
+            "price": 35.00,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "merry-mill-farm.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "tours.tour",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "Still Garden Distillery Gin Tasting Experience",
+            "description": "Visit Stillgarden Distillery for an exquisite Gin Tasting afternoon tea and find out the gin-spiration behind our range of beautifully crafted gins. You will taste 4 of our signature gins and learn about the botanicals and equipment used to create them. Tickets include a welcome drink plus a 4 gin tasting flight and mixer, the duration is 60 mins. All sessions end with a Q&A from one of our liquid experts.",
+            "duration": 1.20,	
+            "price": 33.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "gin-tasting-still-gardens.jpg"
+        }
+    }
+]

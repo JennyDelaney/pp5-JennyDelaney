@@ -1,0 +1,50 @@
+[
+    {
+        "pk": 1,
+        "model": "tours.category",
+        "fields": {
+            "name": "west-ireland",
+            "friendly_name": "West Coast of Ireland"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "tours.category",
+        "fields": {
+            "name": "north-ireland",
+            "friendly_name": "Northern Ireland"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "tours.category",
+        "fields": {
+            "name": "southeast-ireland",
+            "friendly_name": "South East Ireland"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "tours.category",
+        "fields": {
+            "name": "middle-ireland",
+            "friendly_name": "The Midlands"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "tours.category",
+        "fields": {
+            "name": "Dublin-City",
+            "friendly_name": "Dublin City"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "tours.category",
+        "fields": {
+            "name": "greater-dublin",
+            "friendly_name": "Greater Dublin Area"
+        }
+    }
+]
