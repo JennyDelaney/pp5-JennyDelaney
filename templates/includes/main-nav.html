@@ -6,10 +6,10 @@
                 All Tours
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-tours-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Duration</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'tours' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'tours' %}?sort=duration&direction=asc" class="dropdown-item ">By Duration</a>
+                <a href="{% url 'tours' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'tours' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'tours' %}" class="dropdown-item">All Tours</a>
             </div>
         </li>
