@@ -6,6 +6,7 @@ from .models import Tour, Category
 
 # Create your views here.
 
+
 def all_tours(request):
     """ A view to show all tours, including sorting and search queries """
 
