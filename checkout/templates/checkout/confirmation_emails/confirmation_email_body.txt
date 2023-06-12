@@ -1,0 +1,15 @@
+Hello {{ order.full_name }}
+
+This is a confirmation of your order with All Tours to take the following tour -
+
+Tour Name: {{ order.tour_name }}
+
+We will be in touch with you by phone within 24 hours to confirm the date when 
+you would like to take the tour and to organise where we will pick you up.
+
+We would like to thank you for booking your tour with All Tours and we look 
+forward to showing you some wonderful places in Ireland.
+
+Sincerely
+
+All Tours
