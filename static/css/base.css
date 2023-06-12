@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/alltours-samuel-beckett-bridge-dublin.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -27,7 +27,7 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
+.book-now-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -51,9 +51,9 @@ body {
     color: white !important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.book-now-button:hover,
+.book-now-button:active,
+.book-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
