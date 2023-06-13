@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Tour, Category
 
-# Register your models here.
 
 class TourAdmin(admin.ModelAdmin):
     list_display = (
@@ -15,6 +14,7 @@ class TourAdmin(admin.ModelAdmin):
     )
 
     ordering = ('category',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (

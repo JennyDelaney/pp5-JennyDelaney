@@ -6,8 +6,6 @@ from django.db.models.functions import Lower
 from .models import Tour, Category
 from .forms import TourForm
 
-# Create your views here.
-
 
 def all_tours(request):
     """ A view to show all tours, including sorting and search queries """
@@ -70,14 +68,15 @@ def tour_detail(request, tour_id):
 
     return render(request, 'tours/tour_detail.html', context)
 
+
 def add_tour(request):
     """ Add a tour to the website """
     if request.method == 'POST':
         form = TourForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
-            messages.success(request,'Successfully added tour!')
-            return redirect(reverse('add_tour'))
+            tour = form.save()
+            messages.success(request, 'Successfully added tour!')
+            return redirect(reverse('tour_detail', args=[tour.id]))
         else:
             messages.error(request, 'Failed to add tour.  Please ensure the form is valid.')
     else:
@@ -114,3 +113,11 @@ def edit_tour(request, tour_id):
     }
 
     return render(request, template, context)
+
+
+def delete_tour(request, tour_id):
+    """ Delete a tour from the website """
+    tour = get_object_or_404(Tour, pk=tour_id)
+    tour.delete()
+    messages.success(request, 'Tour Deleted!')
+    return redirect(reverse('tours'))
