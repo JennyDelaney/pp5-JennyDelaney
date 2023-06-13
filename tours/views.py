@@ -89,3 +89,28 @@ def add_tour(request):
     }
 
     return render(request, template, context)
+
+
+def edit_tour(request, tour_id):
+    """ Edit a tour on the website """
+    tour = get_object_or_404(Tour, pk=tour_id)
+    if request.method == 'POST':
+        form = TourForm(request.POST, request.FILES, instance=tour)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated the tour!')
+            return redirect(reverse('tour_detail', args=[tour.id]))
+        else:
+            messages.error(
+                request, 'Failed to update tour. Please ensure the form is valid.')
+    else:
+        form = TourForm(instance=tour)
+        messages.info(request, f'You are editing {tour.name}')
+
+    template = 'tours/edit_tour.html'
+    context = {
+        'form': form,
+        'tour': tour,
+    }
+
+    return render(request, template, context)
