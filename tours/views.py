@@ -2,7 +2,9 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
+
 from .models import Tour, Category
+from .forms import TourForm
 
 # Create your views here.
 
@@ -67,3 +69,13 @@ def tour_detail(request, tour_id):
     }
 
     return render(request, 'tours/tour_detail.html', context)
+
+def add_tour(request):
+    """ Add a tour to the website """
+    form = TourForm()
+    template = 'tours/add_tour.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
