@@ -46,7 +46,7 @@
             "name": "greater-dublin-north",
             "friendly_name": "Greater Dublin Area North"
         }
-    }
+    },
     {
         "pk": 7,
         "model": "tours.category",
@@ -54,7 +54,7 @@
             "name": "greater-dublin-south",
             "friendly_name": "Greater Dublin Area South"
         }
-    }
+    },
     {
         "pk": 8,
         "model": "tours.category",
