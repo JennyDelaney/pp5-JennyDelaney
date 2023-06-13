@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -39,10 +40,12 @@ def all_tours(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse('tours'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(
+                description__icontains=query)
             tours = tours.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -69,8 +72,13 @@ def tour_detail(request, tour_id):
     return render(request, 'tours/tour_detail.html', context)
 
 
+@login_required
 def add_tour(request):
     """ Add a tour to the website """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only website owner can do that.')
+        return redirect(reverse('home'))
+
     if request.method == 'POST':
         form = TourForm(request.POST, request.FILES)
         if form.is_valid():
@@ -78,7 +86,8 @@ def add_tour(request):
             messages.success(request, 'Successfully added tour!')
             return redirect(reverse('tour_detail', args=[tour.id]))
         else:
-            messages.error(request, 'Failed to add tour.  Please ensure the form is valid.')
+            messages.error(
+                request, 'Failed to add tour.  Please ensure the form is valid.')
     else:
         form = TourForm()
 
@@ -90,8 +99,13 @@ def add_tour(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_tour(request, tour_id):
     """ Edit a tour on the website """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only website owner can do that.')
+        return redirect(reverse('home'))
+
     tour = get_object_or_404(Tour, pk=tour_id)
     if request.method == 'POST':
         form = TourForm(request.POST, request.FILES, instance=tour)
@@ -115,8 +129,13 @@ def edit_tour(request, tour_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_tour(request, tour_id):
     """ Delete a tour from the website """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only website owner can do that.')
+        return redirect(reverse('home'))
+
     tour = get_object_or_404(Tour, pk=tour_id)
     tour.delete()
     messages.success(request, 'Tour Deleted!')
