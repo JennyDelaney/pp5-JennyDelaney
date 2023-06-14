@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-&xer8hsnm(1&6!$t*z_0(2-5wrt*t&aasw^doww5#krfboyl9j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-jennydelaney-pp5-jennyde-9xgbi4rjjm.us2.codeanyapp.com', 'pp5-all-tours.herokuapp.com']
+ALLOWED_HOSTS = ['8000-jennydelaney-pp5-jennyde-9xgbi4rjjm.us2.codeanyapp.com',
+                 'pp5-all-tours.herokuapp.com']
 
 
 # Application definition
@@ -131,7 +132,7 @@ else:
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
-}
+    }
 
 
 # Password validation
