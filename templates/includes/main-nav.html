@@ -56,9 +56,14 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact' %}">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="city-link" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Contact Us
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="city-link">
+                <a href="{% url 'contact' %}" class="dropdown-item">Send us a Message!</a>
+                <a href="{% url 'mailing_list' %}" class="dropdown-item">Sign up for our Newsletter</a>
+            </div>
         </li>
     </ul>
 </div>
