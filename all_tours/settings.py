@@ -10,10 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-# settings.py
-from dotenv import load_dotenv 
-load_dotenv() 
-
 from pathlib import Path
 
 import os
@@ -55,6 +51,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'contact',
+    'mailing_list',
 
     # Other
     'crispy_forms',

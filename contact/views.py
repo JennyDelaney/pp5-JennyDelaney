@@ -1,11 +1,6 @@
 from django.shortcuts import render
 from django.contrib import messages
 
-from django.core.mail import send_mail
-from django.conf import settings
-
-from django.template.loader import render_to_string
-
 from .forms import ContactForm
 
 
@@ -19,27 +14,11 @@ def contact(request):
         if form.is_valid():
             form.save()
 
-            # Confirmation email is sent on submission of form
             topic = form.cleaned_data['topic']
             name = form.cleaned_data['name']
             original_message = form.cleaned_data['message']
-            message = render_to_string(
-                'confirmation_email.txt', {
-                    'name': name,
-                    'original_message': original_message
-                })
-            email_from = settings.DEFAULT_FROM_EMAIL
-            email_to = [form.cleaned_data['email']]
-
-            send_mail(
-                topic,
-                message,
-                email_from,
-                email_to
-            )
-
-            messages.success(request, 'Message submitted and a confirmation \
-                email has gone out with a copy of the original message')
+            messages.success(request, 'Your message has been submitted. \
+                Someone from our team will be in touch shortly.')
 
     form = ContactForm
 
