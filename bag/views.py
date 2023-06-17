@@ -23,7 +23,7 @@ def add_to_bag(request, item_id):
 
     if item_id in list(bag.keys()):
         bag[item_id] += quantity
-        messages.success(request, 
+        messages.success(request,
                          f'Updated {tour.name} quantity to {bag[item_id]}')
     else:
         bag[item_id] = quantity

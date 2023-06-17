@@ -14,7 +14,8 @@ def mailing_list(request):
         if form.is_valid():
             form.save()
 
-            messages.success(request, 'Thank you for signing up for our Newsletter')
+            messages.success(request, 'Thank you for signing up for our \
+                Newsletter')
 
     form = MailingListForm
 

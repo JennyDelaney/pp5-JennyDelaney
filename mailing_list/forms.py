@@ -20,9 +20,8 @@ class MailingListForm(forms.ModelForm):
         Add Placeholder to form fields
         """
         placeholders = {
-            
             'first_name': 'First Name',
-            'email': 'Email Address',            
+            'email': 'Email Address',
         }
 
         for field in self.fields:

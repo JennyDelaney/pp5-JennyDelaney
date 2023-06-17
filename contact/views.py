@@ -14,9 +14,6 @@ def contact(request):
         if form.is_valid():
             form.save()
 
-            topic = form.cleaned_data['topic']
-            name = form.cleaned_data['name']
-            original_message = form.cleaned_data['message']
             messages.success(request, 'Your message has been submitted. \
                 Someone from our team will be in touch shortly.')
 

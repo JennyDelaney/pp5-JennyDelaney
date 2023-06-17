@@ -87,7 +87,8 @@ def add_tour(request):
             return redirect(reverse('tour_detail', args=[tour.id]))
         else:
             messages.error(
-                request, 'Failed to add tour.  Please ensure the form is valid.')
+                request, 'Failed to add tour. Please ensure the \
+                    form is valid.')
     else:
         form = TourForm()
 
@@ -114,8 +115,8 @@ def edit_tour(request, tour_id):
             messages.success(request, 'Successfully updated the tour!')
             return redirect(reverse('tour_detail', args=[tour.id]))
         else:
-            messages.error(
-                request, 'Failed to update tour. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update tour. \
+                Please ensure the form is valid.')
     else:
         form = TourForm(instance=tour)
         messages.info(request, f'You are editing {tour.name}')
