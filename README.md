@@ -4,7 +4,7 @@
 
 This website was created for vistors coming to Ireland to be able to book a tour throughout the isle of Ireland in one place.
 
-![home_page](/media/readme_images/home_page.jpg)
+![home_page](/media/readme-images/home_page.jpg)
 
 ## Table of content: 
  1. [Site Goals](#Site-Goals)
@@ -67,7 +67,7 @@ To demonstrate the Agile approach that was used for this project, GitHub issues 
 - Add blocks to base template
 
 This covered the following User Stories -
-![Sprint Two](/media/readme_images/sprint_2.jpg)
+![Sprint Two](/media/readme-images/sprint_2.jpg)
 
 </details>
 
@@ -84,7 +84,7 @@ This covered the following User Stories -
 - added mobile header and nav bar
 
 This covered the following User Stories -
-![Sprint Three](/media/readme_images/sprint_3.jpg)
+![Sprint Three](/media/readme-images/sprint_3.jpg)
 </details>
 
 <details>
@@ -102,7 +102,7 @@ This covered the following User Stories -
 - added tour details functionality
 
 This covered the following User Stories -
-![Sprint Four](/media/readme_images/sprint_4.jpg)
+![Sprint Four](/media/readme-images/sprint_4.jpg)
 </details>
 
 <details>
@@ -119,7 +119,7 @@ This covered the following User Stories -
 - Added sorting js and back to top link
 
 This covered the following User Stories -
-![Sprint Five](/media/readme_images/sprint_5.jpg)
+![Sprint Five](/media/readme-images/sprint_5.jpg)
 </details>
 
 <details>
@@ -140,7 +140,7 @@ This covered the following User Stories -
 - Added quantity boxes to shopping bag page
 
 This covered the following User Stories -
-![Sprint Six](/media/readme_images/sprint_6.jpg)
+![Sprint Six](/media/readme-images/sprint_6.jpg)
 </details>
 
 <details>
@@ -161,7 +161,7 @@ This covered the following User Stories -
 - Added checkout views and templates
 
 This covered the following User Stories -
-![Sprint Eight](/media/readme_images/sprint_8.jpg)
+![Sprint Eight](/media/readme-images/sprint_8.jpg)
 </details>
 
 <details>
@@ -203,7 +203,7 @@ This covered the following User Stories -
 - Completed confirmation emails
 
 This covered the following User Stories -
-![Sprint Ten](/media/readme_images/sprint_10.jpg)
+![Sprint Ten](/media/readme-images/sprint_10.jpg)
 </details>
 
 <details>
@@ -220,7 +220,7 @@ This covered the following User Stories -
 - Deleting tours
 
 This covered the following User Stories -
-![Sprint Eleven](/media/readme_images/sprint_11.jpg)
+![Sprint Eleven](/media/readme-images/sprint_11.jpg)
 </details>
 
 <details>
@@ -258,50 +258,50 @@ This covered the following User Stories -
     -   #### Imagery
         -   The image used in this project was taken from [Pexel](https://www.pexels.com/).
     -   #### Wireframes
-        -   ![Wireframe](/media/readme_images/wireframe.jpg)
+        -   ![Wireframe](/media/readme-images/wireframe.jpg)
 
 *   ### Structure of website
 
     <details>
     <summary>Home Page</summary>
 
-    ![Home Page](/media/readme_images/home_page.jpg)
+    ![Home Page](/media/readme-images/home_page.jpg)
     </details>
     
     <details>
     <summary>Register Page</summary>
 
-    ![Register Page](/media/readme_images/register_page.jpg)
+    ![Register Page](/media/readme-images/register_page.jpg)
     </details>
     
     <details>
     <summary>Log In Page</summary>
 
-    ![Sign_in](/media/readme_images/sign_in_page.jpg)
+    ![Sign_in](/media/readme-images/sign_in_page.jpg)
     </details>
     
     <details>
     <summary>All Tours Page</summary>
 
-    ![Tours](/media/readme_images/all_tours_page.jpg)
+    ![Tours](/media/readme-images/all_tours_page.jpg)
     </details>
 
     <details>
     <summary>Individual Tour Page</summary>
 
-    ![Tour Page 2](/media/readme_images/individual_tour_page.jpg)
+    ![Tour Page 2](/media/readme-images/individual_tour_page.jpg)
     </details>
 
     <details>
     <summary>Shopping Bag Page</summary>
 
-    ![Shopping Bag](/media/readme_images/shopping_bag.jpg)
+    ![Shopping Bag](/media/readme-images/shopping_bag.jpg)
     </details>
 
 	<details>
     <summary>Checkout Page</summary>
 
-    ![Checkout](/media/readme_images/checkout_page.jpg)
+    ![Checkout](/media/readme-images/checkout_page.jpg)
     </details>
 
 ## Technologies Used
