@@ -32,6 +32,7 @@ This website was created for vistors coming to Ireland to be able to book a tour
  1. [Technologies Used](#Technologies-Used)
  1. [Testing](#Testing)
  1. [Deployment](#Deployment)
+ 1. [SEO/Marketing](#SEO)
  1. [Credits & Acknowledgements](#Credits)
 
 
@@ -73,7 +74,8 @@ This covered the following User Stories -
 
 <details>
 <summary>Sprint Three</summary>
-### **The Home Page**
+
+### The Home Page
 
 - Added home app and created templates
 
@@ -89,7 +91,8 @@ This covered the following User Stories -
 
 <details>
 <summary>Sprint Four</summary>
-### **Adding the Tours:**
+
+### **Adding Tours:**
 
 - added tour app, models and fixtures
 
@@ -253,12 +256,13 @@ This covered the following User Stories -
 * As a returning user, I want to view my previous tours
 
 ### Design/Wireframes
-    -   #### Colour Scheme
-        -   The two main colours used are black and white to give the site a dynamic, easily read view.
-    -   #### Imagery
-        -   The image used in this project was taken from [Pexel](https://www.pexels.com/).
-    -   #### Wireframes
-        -   ![Wireframe](/media/readme-images/wireframe.jpg)
+
+-   #### Colour Scheme
+    -   The two main colours used are black and white to give the site a dynamic, easily read view.
+-   #### Imagery
+    -   The image used in this project was taken from [Pexel](https://www.pexels.com/).
+-   #### Wireframes
+    -   ![Wireframe](/media/readme-images/wireframe.jpg)
 
 *   ### Structure of website
 
@@ -340,6 +344,28 @@ Testing information can be viewed [here](/documents/TESTING.md)
 
 ## Deployment
 Deployment information can be viewed [here](/documents/DEPLOYMENT.md)
+
+## Deployment
+Deployment information can be viewed [here](/documents/DEPLOYMENT.md)
+
+## SEO / Marketing
+The use of social media marketing is very important for bringing in customers and increasing visibility of the site. 
+The approved way to generate interest is an organic approach as the marketing budget will be small initially.
+
+Facebook marketing is often more important than any other platform, we are using it for this project.
+
+![Facebook](/media/readme-images/facebook_desktop.jpg)
+
+The meta keywords and description in base.html have been amended to the researched keywords. 
+On significant pages like the index and product pages, the site title has the name The Policy Shop and also has keywords.
+
+The homepage has also been designed with SEO in mind. 
+Some of the keywords are also used in the text portions of the webpage, with strong tags surrounding the major keywords, to improve search results. 
+
+For SEO purposes, we have also added a sitemap.xml and robots.txt file to the website's root directory for search engines to crawl the site. 
+
+A sitemap is a method of classifying a website, indicating the URLs and the information contained within each section.
+The URLs on your website that a search engine crawler is permitted to visit are specified in a robots.txt file.
 
 ## Credits & Acknowledgements
 

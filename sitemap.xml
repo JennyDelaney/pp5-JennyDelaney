@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/bag/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?sort=duration&amp;direction=asc</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=north-ireland</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=southwest-ireland</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=west-ireland</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=middle-ireland</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=north-ireland,southwest-ireland,west-ireland,middle-ireland</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=greater-dublin-north</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=greater-dublin-south</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=greater-dublin-west</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=greater-dublin-north,greater-dublin-south,greater-dublin-west</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/?category=Dublin-City</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/contact/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/mailing_list/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/8/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/6/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/10/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/9/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/4/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/1/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/3/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/2/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/7/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-all-tours.herokuapp.com/tours/5/</loc>
+  <lastmod>2023-06-17T21:41:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
