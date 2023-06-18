@@ -11,12 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-from dotenv import load_dotenv
 
 import os
 import dj_database_url
-
-load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,7 +27,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-# DEBUG = True
 
 ALLOWED_HOSTS = ['8000-jennydelaney-pp5-jennyde-ixnmnlt08l.us2.codeanyapp.com',
                  'pp5-all-tours.herokuapp.com']
